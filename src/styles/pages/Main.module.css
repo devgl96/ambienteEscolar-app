@@ -17,14 +17,14 @@
     opacity: 0.4;
 
     display: flex;
-    z-index: 1;
+    z-index: 0;
 }
 
 .activities {
     width: 75vw;
     height: 75vh;
 
-    background: blanchedalmond;
+    /* background: blanchedalmond; */
 
     margin: auto;
 
@@ -46,5 +46,11 @@
     align-items: center;
 
     font-size: 2rem;
+
+    color: #000;
 }
 
+.activities .card:hover {
+    cursor: pointer;
+    background: #333;
+}
