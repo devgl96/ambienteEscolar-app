@@ -3,3 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --white: #FFF;
+  --background: #b6e9fd;
+  --primary: #87ceeb;
+  --secondary: #4682b4;
+}

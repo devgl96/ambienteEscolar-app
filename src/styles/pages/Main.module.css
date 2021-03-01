@@ -1,0 +1,18 @@
+.container {
+    background: var(--background);
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    background: var(--secondary);
+    width: 90vw;
+    height: 90vh;
+
+    border-radius: 20px;
+    opacity: 0.4;
+}
